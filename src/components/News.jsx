@@ -48,7 +48,7 @@ const News = ({ simplified }) => {
                         <Avatar src={news.provider[0]?.image?.thumbnail?.contentUrl || demoImage} alt="" />
                         <Text className='provider-name'>{news.provider[0]?.name}</Text>
                       </div>
-                      <Text>{moment(news.datePublished). startOf('ss').fromNow()}</Text>
+                      <Text>{moment(news.datePublished).startOf('ss').fromNow()}</Text>
                   </div>
               </a>
            </Card>
